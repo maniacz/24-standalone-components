@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { AnalyticsService } from 'src/app/shared/analytics.service';
 
 @Component({
+  standalone: true,
   selector: 'app-details',
   templateUrl: './details.component.html',
   styleUrls: ['./details.component.css'],
